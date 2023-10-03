@@ -87,8 +87,8 @@ body .section.section-1, body .section.section-2, body .section.section-3 {
 }
 body .section.section-1::after, body .section.section-2::after, body .section.section-3::after {
   content: "";
-  background-color: rgba(255, 249, 241, 0.1);
-  position: absolute;
+  background-color: rgba(255, 249, 241, 0.1) no-repeat;
+  position: fixed;
   left: 0;
   right: 0;
   top: 0;
