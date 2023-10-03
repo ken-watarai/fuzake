@@ -80,7 +80,7 @@ body .section {
 body .section.section-1, body .section.section-2, body .section.section-3 {
   background-attachment: fixed;
   background-size: cover;
-  -webkit-background-size:cover;
+  -webkit-background-size:contain;
   background-position: center;
   color: #000;
   font-weight: bold;
