@@ -93,6 +93,7 @@ body .section.section-1::after, body .section.section-2::after, body .section.se
   right: 0;
   top: 0;
   bottom: 0;
+  clip: rect(auto, auto, auto, auto);
 }
 body .section.section-1 {
   background-image: url("germany.jpg");
