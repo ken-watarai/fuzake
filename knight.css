@@ -80,14 +80,14 @@ body .section {
 body .section.section-1, body .section.section-2, body .section.section-3 {
   background-attachment: fixed;
   background-size: cover;
-  -webkit-background-size:contain;
+  -webkit-background-size:cover;
   background-position: center;
   color: #000;
   font-weight: bold;
 }
 body .section.section-1::after, body .section.section-2::after, body .section.section-3::after {
   content: "";
-  background-color: rgba(255, 249, 241, 0.1) no-repeat;
+  background-color: rgba(255, 249, 241, 0.1);
   position: fixed;
   left: 0;
   right: 0;
@@ -96,14 +96,14 @@ body .section.section-1::after, body .section.section-2::after, body .section.se
   clip: rect(auto, auto, auto, auto);
 }
 body .section.section-1 {
-  background-image: url("germany.jpg");
+  background-image: url("germany.jpg") no-repeat;
   color: #fff;
 }
 body .section.section-2 {
-  background-image: url("france.png");
+  background-image: url("france.png") no-repeat;
 }
 body .section.section-3 {
-  background-image: url("histroy_image.jpg");
+  background-image: url("histroy_image.jpg") no-repeat;
 }
 body .section.section-3::after {
   background-color: rgba(255, 249, 241, 0.25);
