@@ -1,0 +1,109 @@
+body {
+  position: relative;
+  background: #232323;
+  color: #fff;
+  width: 100vw;
+}
+body #knight {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  background-color: #232323;
+  color: #444;
+  padding: 10px;
+  font-size: 3rem;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+}
+body #knight .disappear {
+  display: none;
+}
+body .comment {
+  position: relative;
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 1.8;
+}
+body .comment.comment-height100 {
+  height: 100vh;
+}
+body .comment #scroll {
+  font-size: 1.3rem;
+  color: #999;
+}
+body .comment #arrow {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  border-right: 1px solid #999;
+  border-bottom: 1px solid #999;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+body .comment a {
+  color: #999;
+}
+body .comment p, body .comment ul {
+  margin: 10px;
+  padding: 30px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+body .comment p span.underline, body .comment ul span.underline {
+  text-decoration: underline;
+}
+body .comment p.fadeOut {
+  position: relative;
+}
+body .comment p.fadeOut::after {
+  content: "";
+  background: linear-gradient(rgba(100, 100, 100, 0) 5px, rgb(35, 35, 35));
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+body .comment ul {
+  text-align: left;
+}
+body .section {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+body .section.section-1, body .section.section-2, body .section.section-3 {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  color: #000;
+  font-weight: bold;
+}
+body .section.section-1::after, body .section.section-2::after, body .section.section-3::after {
+  content: "";
+  background-color: rgba(255, 249, 241, 0.1);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+body .section.section-1 {
+  background-image: url("germany.jpg");
+  color: #fff;
+}
+body .section.section-2 {
+  background-image: url("france.png");
+}
+body .section.section-3 {
+  background-image: url("histroy_image.jpg");
+}
+body .section.section-3::after {
+  background-color: rgba(255, 249, 241, 0.25);
+}
+/*# sourceMappingURL=style.css.map */
