@@ -95,14 +95,14 @@ body .section.section-1::after, body .section.section-2::after, body .section.se
   clip: rect(auto, auto, auto, auto);
 }
 body .section.section-1 {
-  background: url("germany.jpg") no-repeat;
+  background-image: url("germany.jpg");
   color: #fff;
 }
 body .section.section-2 {
-  background: url("france.png") no-repeat;
+  background-image: url("france.png");
 }
 body .section.section-3 {
-  background: url("histroy_image.jpg") no-repeat;
+  background-image: url("histroy_image.jpg");
 }
 body .section.section-3::after {
   background-color: rgba(255, 249, 241, 0.25);
