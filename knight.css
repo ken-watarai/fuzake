@@ -82,6 +82,7 @@ body .section.section-1, body .section.section-2, body .section.section-3 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  -webkit-background-size:contain;
   color: #000;
   font-weight: bold;
   clip: rect(auto, auto, auto, auto);
